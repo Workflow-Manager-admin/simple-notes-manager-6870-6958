@@ -1,4 +1,40 @@
-# Lightweight React Template for KAVIA
+# Notes Frontend React Application
+
+This is a modern and minimal notes app allowing users to create, search, edit and delete notes.\
+The layout includes a sidebar for navigation, a header for the app title, and a main area for note display and editing.
+
+## Features
+
+- Create, edit, delete notes
+- Search/filter notes by text
+- Minimal, modern, light-themed UI (primary: #1976d2, accent: #ffb300, secondary: #424242)
+- Works with a backend REST API if present, or local browser storage if not
+
+## Project Quickstart
+
+1. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+2. To connect to a notes backend, set the environment variable:
+
+   ```
+   REACT_APP_NOTES_API_URL="http://localhost:8000"
+   ```
+
+   If not set, the app uses local browser storage for notes.
+
+3. Run the frontend in development mode:
+
+    ```
+    npm start
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) to use the notes app.
+
+---
 
 This project provides a minimal React template with a clean, modern UI and minimal dependencies.
 
